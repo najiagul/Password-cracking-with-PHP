@@ -4,8 +4,7 @@ The Reverse Hash Application
 This application uses a very simple brute force attack to
 "reverse" an MD5 hash.  It is really not reversing the hash
 at all as that would be impossible.  Instead it knows that
-the original pre hash text was a lower case character string with
-exactly two characters.
+the original pre hash text was a four digit pin.
 
 So the application uses four nested loops and tests all
 10^4 combinations of four digit number, and computes the
