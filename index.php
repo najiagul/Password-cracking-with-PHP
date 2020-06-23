@@ -3,8 +3,8 @@
 <body>
 <h1>MD5 cracker</h1>
 <p>This application takes an MD5 hash
-of a two-character lower case string and
-attempts to hash all two-character combinations
+of a four digit pin and
+attempts to hash all 4-digit combinations
 to determine the original two characters.</p>
 <pre>
 Debug Output:
